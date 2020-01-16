@@ -22,13 +22,13 @@
 </nav>
 <router-outlet></router-outlet>
 <!-- Footer -->
-<footer class="page-footer font-small mdb-color pt-4">
+<footer class="page-footer font-medium mdb-color pt-4 bg-dark">
 
   <!-- Footer Links -->
-  <div class="container text-center text-md-left">
+  <div class="container text-center text-md-left footercontainer">
 
     <!-- Footer links -->
-    <div class="row text-center text-md-left mt-3 pb-3">
+    <div class="row text-center text-md-left mt-3">
 
       <!-- Grid column -->
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -44,16 +44,16 @@
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Site Map</h6>
         <p>
-          <a class="" [routerLink]="['home']">Home</a>
+          <a class="navbar-btn" [routerLink]="['home']">Home</a>
         </p>
         <p>
-          <a class="" [routerLink]="['servicos']">Serviços</a>
+          <a class="button" [routerLink]="['servicos']">Serviços</a>
         </p>
         <p>
-          <a class="" [routerLink]="['portifolio']">Clientes e Portifólio</a>
+          <a class="a" [routerLink]="['portifolio']">Clientes e Portifólio</a>
         </p>
         <p>
-          <a class="" [routerLink]="['contato']">Contato</a>
+          <a class="a" [routerLink]="['contato']">Contato</a>
         </p>
       </div>
       <!-- Grid column -->
@@ -63,15 +63,20 @@
       <!-- Grid column -->
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Social</h6>
-        <p>
-          <a href="#!">Facebook</a>
-        </p>
-        <p>
-          <a href="#!">Instagram</a>
-        </p>
-        <p>
-          <a href="#!">Whatsapp</a>
-        </p>
+
+        <a href="#!"><div class="col-md-4 socialdiv rounded-circle">
+            <i class="fa fa-facebook"></i>
+          </div></a>
+          <a href="#!"><div class="col-md-4 socialdiv rounded-circle">
+            <i class="fa fa-instagram"></i>
+          </div></a>
+          <a href="#!"><div class="col-md-4 socialdiv rounded-circle">
+            <i class="fa fa-whatsapp"></i>
+          </div></a>
+
+
+
+
       </div>
 
       <!-- Grid column -->
@@ -81,13 +86,13 @@
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
         <p>
-          <i class="fas fa-home"></i> Camboriú, SC, Brasil
+          <i class="fa fa-home"></i> Camboriú, SC, Brasil
         </p>
         <p>
-          <i class="fas fa-home"></i> ruan@ruangervasi.com.br
+          <i class="fa fa-envelope"></i> ruan@ruangervasi.com.br
         </p>
         <p>
-          <i class="fas fa-home"></i> +55 (47) 9 9157-3328
+          <i class="fa fa-phone"></i> +55 (47) 9 9157-3328
         </p>
       </div>
       <!-- Grid column -->

@@ -1,6 +1,33 @@
-.footer {
-  position:absolute;
+
+/*footer layouts INICIO*/
+footer {
+  margin-top: 5%;
   bottom:0;
-  width:100%;
-  background-color: rgb(214, 214, 214);
+  width: 100%;
+  color: white;
+  position:absolute;
 }
+
+.footercontainer {
+  margin-top: 1px;
+}
+
+.socialdiv {
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-width: 1px;
+  margin: 3px;
+  display: inline-table;
+  box-shadow: 0px 0px 8px 2px  #272727;
+  font-size: 26px;
+  text-align: center;
+  vertical-align: center;
+}
+
+footer,a {
+  color: #ffffff;
+  text-decoration:none;
+}
+/*footer layouts FIM*/
+
